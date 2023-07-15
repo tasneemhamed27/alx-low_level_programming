@@ -4,14 +4,14 @@
 /**
 *main - Entry point 
  *
- *Return: Always o (success)
+ *Return: Always 0 (success)
 */  
 int main(void)
 {
 int digit = 0;
 while (digit <= 9)
 {
-printf("%i", digit);
+putchar(digit + '0');
 digit++;
 }
 printf("\n");
