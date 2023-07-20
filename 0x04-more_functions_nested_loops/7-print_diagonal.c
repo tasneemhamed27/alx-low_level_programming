@@ -21,9 +21,9 @@ void print_diagonal(int n)
 			for (y = 0; y <= x; y++)
 			{
 				if (y == x)
-					_putchar(32);
-				else if (y < x)
 					_putchar(92);
+				else if (y < x)
+					_putchar(32);
 			}
 			_putchar('\n');
 		}
